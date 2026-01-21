@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact | Vraj Community Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#007b80",
+                        "secondary": "#6B8EAE",
+                        "background-light": "#ffffff",
+                        "background-dark": "#14191f",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+        .bento-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .bento-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#101818] dark:text-white antialiased">
+<!-- Sticky Navigation -->
+<header class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#f0f5f5] dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div>
+
+</div>
+<img src="/logo.png" style="width: 80px;">
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="index.html">Home</a>
+    <a class="text-sm font-semibold hover:text-primary transition-colors" href="services.html">Services</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="about.html">About Us</a>
+
+
+</nav>
+<div class="flex items-center gap-4">
+<a href="tel:0430033041">
+    <button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold tracking-wide hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+        Contact Us
+    </button>
+</a>
+
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-6 lg:px-10 py-12 lg:py-20">
+<!-- Page Heading -->
+<div class="mb-16">
+<h1 class="text-4xl lg:text-5xl font-black tracking-tight mb-4">Let's start a conversation.</h1>
+<p class="text-[#5e8b8d] dark:text-gray-400 text-lg max-w-2xl leading-relaxed">
+                Whether you're looking for care for yourself or a loved one, our team is here to provide compassionate, professional support across Australia.
+            </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<!-- Contact Form Column -->
+<div class="lg:col-span-7 bg-[#fbfcfc] dark:bg-white/5 rounded-2xl p-8 lg:p-10 form-shadow border border-gray-100 dark:border-white/10">
+<h2 class="text-2xl font-bold mb-8">Send us a message</h2>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<label class="flex flex-col gap-2">
+<span class="text-sm font-semibold text-[#101818] dark:text-gray-200">Full Name</span>
+<input class="h-14 rounded-lg border-[#dae6e7] dark:border-white/10 bg-white dark:bg-background-dark focus:ring-primary focus:border-primary text-base px-4" placeholder="John Doe" type="text"/>
+</label>
+<label class="flex flex-col gap-2">
+<span class="text-sm font-semibold text-[#101818] dark:text-gray-200">Email Address</span>
+<input class="h-14 rounded-lg border-[#dae6e7] dark:border-white/10 bg-white dark:bg-background-dark focus:ring-primary focus:border-primary text-base px-4" placeholder="john@example.com" type="email"/>
+</label>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<label class="flex flex-col gap-2">
+<span class="text-sm font-semibold text-[#101818] dark:text-gray-200">Phone Number</span>
+<input class="h-14 rounded-lg border-[#dae6e7] dark:border-white/10 bg-white dark:bg-background-dark focus:ring-primary focus:border-primary text-base px-4" placeholder="+61 400 000 000" type="tel"/>
+</label>
+<label class="flex flex-col gap-2">
+<span class="text-sm font-semibold text-[#101818] dark:text-gray-200">Subject</span>
+<select class="h-14 rounded-lg border-[#dae6e7] dark:border-white/10 bg-white dark:bg-background-dark focus:ring-primary focus:border-primary text-base px-4">
+<option>General Inquiry</option>
+<option>NDIS Support</option>
+<option>Home Care Packages</option>
+<option>Career Opportunities</option>
+</select>
+</label>
+</div>
+<label class="flex flex-col gap-2">
+<span class="text-sm font-semibold text-[#101818] dark:text-gray-200">How can we help?</span>
+<textarea class="rounded-lg border-[#dae6e7] dark:border-white/10 bg-white dark:bg-background-dark focus:ring-primary focus:border-primary text-base p-4 resize-none" placeholder="Tell us more about your needs..." rows="5"></textarea>
+</label>
+<button class="w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-primary/90 transition-all flex items-center justify-center gap-2 group" type="submit">
+                        Send Message
+                        <span class="material-symbols-outlined text-xl group-hover:translate-x-1 transition-transform">send</span>
+</button>
+</form>
+</div>
+<!-- Info & Map Column -->
+<div class="lg:col-span-5 space-y-12">
+<!-- Contact Details -->
+<div class="space-y-8">
+<div class="flex items-start gap-5">
+<div class="bg-primary/10 p-3 rounded-lg text-primary">
+<span class="material-symbols-outlined text-3xl">location_on</span>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">Our Location</h3>
+<p class="text-[#5e8b8d] dark:text-gray-400">18 Madison Place, Schofields, NSW 2762</p>
+</div>
+</div>
+<div class="flex items-start gap-5">
+<div class="bg-primary/10 p-3 rounded-lg text-primary">
+<span class="material-symbols-outlined text-3xl">call</span>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">Phone</h3>
+<p class="text-[#5e8b8d] dark:text-gray-400">04 3003 3041</p>
+
+</div>
+</div>
+<div class="flex items-start gap-5">
+<div class="bg-primary/10 p-3 rounded-lg text-primary">
+<span class="material-symbols-outlined text-3xl">mail</span>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">Email</h3>
+<p class="text-[#5e8b8d] dark:text-gray-400">support@vrajcommunitycare.com.au</p>
+</div>
+</div>
+</div>
+
+<!-- NDIS Badge -->
+<div class="bg-primary/5 rounded-xl p-6 border border-primary/20 flex items-center gap-4">
+<div class="size-12 bg-white rounded-lg flex items-center justify-center p-2 shadow-sm">
+<img alt="NDIS Logo" class="max-h-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgRGirZ2yXxVvKRrsAqsyf2qXn17OSMg4c7Lp3nNjH8vNO05mM4lNSEg9Y9P51XpvI9Uh_oj37xeVSwdGcNYh0UMpT0qvXLCLw8Yxq0bfN3HxmqJiHMuC7jE6l2Vlsg3w_2p4RW-DZxVLK_bs11BNC13U8eGZshslHxBK0Ca49dNhndz3aYRqVjKCy6JQojo530CbVtQR5kOnT4psFDMCHj3wEzlf9mT5l5-iEyt1UehVhRDiWVDhl4SghGBXTRC6gQFnUuG1j9is"/>
+</div>
+<div>
+<p class="font-bold text-sm">Registered NDIS Provider</p>
+<p class="text-xs text-[#5e8b8d] dark:text-gray-400">Committed to quality care standards.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<section class="max-w-7xl mx-auto px-6 py-20 text-center space-y-8">
+<h2 class="text-4xl md:text-6xl font-extrabold text-[#101818] dark:text-white">Ready to receive the <br/>care you deserve?</h2>
+<p class="text-[#5e8b8d] dark:text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">
+                Connect with our team of qualified specialists today. We are here to listen, understand, and build a support plan that works for you.
+            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+<a href="tel:04 3003 3041">
+    <button class="w-full sm:w-auto bg-primary text-white px-10 py-4 rounded-xl text-lg font-bold hover:scale-105 transition-transform shadow-xl shadow-primary/20">
+                    Contact Us Now
+                </button></a>
+<div class="flex items-center gap-3 px-6 py-4 rounded-xl border border-gray-100 dark:border-gray-800">
+<span class="material-symbols-outlined text-primary">call</span>
+<span class="font-bold text-[#101818] dark:text-white">04 3003 3041</span>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white dark:bg-background-dark border-t border-[#f0f5f5] dark:border-gray-800 pt-20 pb-10">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+
+
+
+<img src="/logo.png" style="width: 60px;">
+</div>
+<p class="text-sm text-[#5e8b8d] leading-relaxed">
+                        Leading the way in compassionate, professional community care services across Australia. Registered NDIS provider.
+                    </p>
+<div class="flex gap-4">
+<!-- Facebook -->
+<a href="#" target="_blank" aria-label="Facebook">
+    <div class="size-8 rounded-full bg-gray-100 flex items-center justify-center text-[#5e8b8d] hover:bg-primary hover:text-white transition-colors cursor-pointer">
+        <i class="fa-brands fa-facebook-f text-sm"></i>
+    </div>
+</a>
+
+<!-- Instagram -->
+<a href="https://www.instagram.com/vrajcommunitycare?utm_source=ig_web_button_share_sheet&igsh=MWRpN3A3NDFlamk1dw%3D%3D"
+   target="_blank" aria-label="Instagram">
+    <div class="size-8 rounded-full bg-gray-100 flex items-center justify-center text-[#5e8b8d] hover:bg-primary hover:text-white transition-colors cursor-pointer">
+        <i class="fa-brands fa-instagram text-sm"></i>
+    </div>
+</a>
+
+</div>
+<img src="/ndis.png" style="width: 80px;">
+</div>
+<div>
+<h6 class="font-bold text-[#101818] dark:text-white mb-6">Services</h6>
+<ul class="space-y-4 text-sm text-[#5e8b8d]">
+<li><a class="hover:text-primary transition-colors" >NDIS Core Support</a></li>
+<li><a class="hover:text-primary transition-colors" >Aged Care Packages</a></li>
+<li><a class="hover:text-primary transition-colors" >Disability Support</a></li>
+<li><a class="hover:text-primary transition-colors" >Respite Care</a></li>
+</ul>
+</div>
+<div>
+<h6 class="font-bold text-[#101818] dark:text-white mb-6">Company</h6>
+<ul class="space-y-4 text-sm text-[#5e8b8d]">
+<li><a class="hover:text-primary transition-colors" href="about.html">About Vraj</a></li>
+<li><a class="hover:text-primary transition-colors" href="services.html">Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="contact.html">Contact</a></li>
+
+</ul>
+</div>
+<div>
+<h6 class="font-bold text-[#101818] dark:text-white mb-6">Contact Info</h6>
+<ul class="space-y-4 text-sm text-[#5e8b8d]">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                            18 Madison Place, Schofields, NSW 2762
+                        </li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">mail</span>
+                            support@vrajcommunitycare.com.au
+                        </li>
+<li class="flex items-center gap-3 font-bold text-[#101818] dark:text-white">
+<span class="material-symbols-outlined text-primary text-sm">call</span>
+                            (04) 3003 3041 <br>
+                            (04) 3377 4678
+                        </li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-[#f0f5f5] dark:border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-[#5e8b8d]">© 2025 Vraj Community Care. All rights reserved.</p>
+<div class="flex gap-8 text-xs text-[#5e8b8d]">
+
+</div>
+</div>
+</div>
+</footer>
+</body></html>

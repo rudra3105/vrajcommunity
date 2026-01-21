@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vraj Community Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#007b80",
+                        "secondary": "#6B8EAE",
+                        "background-light": "#ffffff",
+                        "background-dark": "#14191f",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+        .bento-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .bento-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#101818] dark:text-white antialiased">
+<!-- Sticky Navigation -->
+<header class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#f0f5f5] dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div>
+
+</div>
+<img src="/logo.png" style="width: 80px;">
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="index.html">Home</a>
+    <a class="text-sm font-semibold hover:text-primary transition-colors" href="services.html">Services</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="about.html">About Us</a>
+
+
+</nav>
+<div class="flex items-center gap-4">
+<a href="tel:0430033041">
+    <button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold tracking-wide hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+        Contact Us
+    </button>
+</a>
+
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-6 py-12 md:py-24">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                        Certified NDIS Provider
+                    </div>
+<h1 class="text-5xl md:text-7xl font-extrabold text-[#101818] dark:text-white leading-[1.1] tracking-tight">
+                        Empowering Lives <br/>
+<span class="text-primary italic font-medium">with Compassion.</span>
+</h1>
+<p class="text-lg text-[#5e8b8d] dark:text-gray-400 max-w-lg leading-relaxed">
+                        Professional NDIS and Aged Care services tailored to your unique journey. We provide personalized support across the Australian community to foster independence.
+                    </p>
+<div class="flex flex-wrap gap-4">
+    <a href="about.html">
+<button class="bg-primary text-white px-8 py-4 rounded-xl text-base font-bold flex items-center gap-2 hover:shadow-xl hover:shadow-primary/30 transition-all">
+                            Get Started Today
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</a>
+
+<a href="services.html">
+<button class="border border-gray-200 dark:border-gray-700 px-8 py-4 rounded-xl text-base font-bold flex items-center gap-2 hover:bg-gray-50 dark:hover:bg-gray-800 transition-all">
+                            View Services
+                        </button></a>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-6 -left-6 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-10 -right-10 w-64 h-64 bg-secondary/5 rounded-full blur-3xl"></div>
+<div class="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative z-10">
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<img alt="Caregiver smiling with an elderly client in a home setting" class="w-full h-full object-cover" data-alt="Caregiver smiling with an elderly client in a home setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIaOOOfzEs0Gk1b-I5yYR8PeyT08F1U3IcCvkkt5SpJtbEc-g7awiKpIK_fOyygByYtefqe7y5vbyfETcqL5SxND2YDnB1mBj_htBT-jfQ3GKxrLR7qbuwvBT3kk-xmAaj_sJU5A72wbCak9ykeKfK_a7POvs-JKTeJgZqmSB0rztWcBeTaJ6F1aigAcbeYDLaPc3YV-pRZxIxF9G1dscQ_1kV_l7iMB6xtBR0oX9mbdoBzTSWljzULE4IARGecAEETNVe8GH0igA"/>
+<div class="absolute bottom-8 left-8 right-8 bg-white/90 dark:bg-background-dark/90 backdrop-blur p-6 rounded-2xl shadow-xl">
+<div class="flex items-center gap-4">
+<div class="flex -space-x-3">
+<div class="size-10 rounded-full border-2 border-white bg-gray-200 bg-cover" data-alt="Client profile picture" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA8HbdympuvmenizVyt9NrWPfJpFDb5pNDC9m74gFyN0WQzquTCZJ3rjbOc-6wvT57vh3qmTbMUb2Eo9F0tGlsoLyh-TJlh19ns7FCf3V_kjC9f5rR9bwRY5tf0MxglB9xtJJ0kpogGFl3dj3jNIeXZdc4OTScDIS_rsDZVAuMx0_aeBvrkwiki2PyVHuEHqvOxOV73bk4xiYl4Fr7y2uqtctSVcZcpgNGMkahd7S33lkkXFxpKTX588sB4dOtf27tFr3RNzXZu1cM')"></div>
+<div class="size-10 rounded-full border-2 border-white bg-gray-300 bg-cover" data-alt="Client profile picture" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-GjjqbxbTcfPs3LMtxoNjtAejLiebHgWCu51zLAj34uZ4qiKUc9c3c77lYdHCW1-tc53JqAjuq1fITZPLcvvTyoepo-faBh_uPg7hgE-4HgDU8mSfMcDJzc50oXzLKWUV1Ov-SsvVwYd5slLJOyp9-OBG01Auo3HE8bK_-Ix4Q7py0rj9pZz1Fejnll5tjW452I9cSFJHDlFruK3sckKTt7Kgs1My2W4S82aKPkwX8fqFCcbLBGygKkgvd_Int7sOINiCVmg2WS8')"></div>
+<div class="size-10 rounded-full border-2 border-white bg-primary flex items-center justify-center text-[10px] text-white font-bold">500+</div>
+</div>
+<div>
+<p class="text-sm font-bold text-[#101818] dark:text-white leading-none">Trusted by Families</p>
+<p class="text-xs text-[#5e8b8d] mt-1">Join our caring community</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="bg-[#f8fcfc] dark:bg-gray-900/50 py-16 border-y border-[#f0f5f5] dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center md:text-left space-y-1">
+<p class="text-primary font-extrabold text-4xl">10+</p>
+<p class="text-sm font-semibold text-[#5e8b8d] uppercase tracking-wider">Years Experience</p>
+</div>
+<div class="text-center md:text-left space-y-1">
+<p class="text-primary font-extrabold text-4xl">500+</p>
+<p class="text-sm font-semibold text-[#5e8b8d] uppercase tracking-wider">Happy Clients</p>
+</div>
+<div class="text-center md:text-left space-y-1">
+<p class="text-primary font-extrabold text-4xl">100+</p>
+<p class="text-sm font-semibold text-[#5e8b8d] uppercase tracking-wider">Qualified Carers</p>
+</div>
+<div class="text-center md:text-left space-y-1">
+<p class="text-primary font-extrabold text-4xl">24/7</p>
+<p class="text-sm font-semibold text-[#5e8b8d] uppercase tracking-wider">Support Care</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Bento Grid -->
+<section class="max-w-7xl mx-auto px-6 py-24">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="space-y-4">
+<h2 class="text-primary text-sm font-bold uppercase tracking-widest flex items-center gap-2">
+<span class="w-8 h-[2px] bg-primary"></span>
+                        Our Expertise
+                    </h2>
+<h3 class="text-4xl md:text-5xl font-extrabold text-[#101818] dark:text-white leading-tight">
+                        Compassionate Support <br/>For Every Need
+                    </h3>
+</div>
+<p class="text-[#5e8b8d] dark:text-gray-400 max-w-md">
+                    We specialize in high-quality care frameworks that empower individuals to live their lives to the fullest with dignity and respect.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- NDIS Support -->
+<div class="bento-card group bg-white dark:bg-gray-800 p-8 rounded-[2rem] shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col justify-between h-full">
+<div class="space-y-6">
+<div class="size-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
+<span class="material-symbols-outlined text-3xl">accessibility_new</span>
+</div>
+<div class="space-y-3">
+<h4 class="text-2xl font-bold text-[#101818] dark:text-white leading-tight">NDIS Support</h4>
+<p class="text-[#5e8b8d] dark:text-gray-400 text-sm leading-relaxed">
+                                Tailored support plans for NDIS participants to achieve their personal and professional goals with ease.
+                            </p>
+</div>
+</div>
+<div class="mt-8">
+
+</div>
+</div>
+<!-- Aged Care -->
+<div class="bento-card group bg-white dark:bg-gray-800 p-8 rounded-[2rem] shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col justify-between h-full">
+<div class="space-y-6">
+<div class="size-14 bg-secondary/10 rounded-2xl flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all duration-300">
+<span class="material-symbols-outlined text-3xl">elderly</span>
+</div>
+<div class="space-y-3">
+<h4 class="text-2xl font-bold text-[#101818] dark:text-white leading-tight">Aged Care</h4>
+<p class="text-[#5e8b8d] dark:text-gray-400 text-sm leading-relaxed">
+                                Compassionate in-home care and assistance for senior community members to live comfortably and safely.
+                            </p>
+</div>
+</div>
+<div class="mt-8">
+
+</div>
+</div>
+<!-- Disability Support -->
+<div class="bento-card group bg-white dark:bg-gray-800 p-8 rounded-[2rem] shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col justify-between h-full">
+<div class="space-y-6">
+<div class="size-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
+<span class="material-symbols-outlined text-3xl">volunteer_activism</span>
+</div>
+<div class="space-y-3">
+<h4 class="text-2xl font-bold text-[#101818] dark:text-white leading-tight">Disability Support</h4>
+<p class="text-[#5e8b8d] dark:text-gray-400 text-sm leading-relaxed">
+                                Specialized care services focused on independence, community participation, and long-term well-being.
+                            </p>
+</div>
+</div>
+<div class="mt-8">
+
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonial / Impact Section -->
+<section class="max-w-7xl mx-auto px-6 py-24 mb-24 overflow-hidden">
+<div class="bg-primary/5 rounded-[3rem] p-8 md:p-16 relative">
+<div class="absolute -right-20 -top-20 size-80 bg-primary/10 rounded-full blur-3xl"></div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 relative z-10">
+<div class="space-y-12">
+<div class="size-12 bg-primary rounded-full flex items-center justify-center text-white">
+<span class="material-symbols-outlined">format_quote</span>
+</div>
+<p class="text-3xl md:text-4xl font-medium text-[#101818] dark:text-white leading-tight">
+                            "Vraj Community Care has been a blessing for our family. Their professional approach and genuine warmth made all the difference in my father's recovery and daily comfort."
+                        </p>
+<div class="flex items-center gap-4">
+<div class="size-14 rounded-full bg-gray-200 border-2 border-primary overflow-hidden">
+<img alt="Testimonial author" class="w-full h-full object-cover" data-alt="Portrait of a happy client family member" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC814Fv4daJOlh3ZrSkkWNN3_EwWEeptlvJ2bHTL8Yc6f2DnvBhXsHmYNXluTjj5gQ9VjPA7qP_i5JyRrzTTW1UHPjaBU07Thi2toUfCFyFYKU5FW7L_6FZuJqCvnKpLjJi_cRZAE-O48vjLn0MNQaWAXzI1JNK4U499s6F9HYSGS207BLQJqITMvb68jchT_wtmW7RAcpoPJGM1rbhxgt3xK5pS0ZR7VlMmBloSGt1Zdww-9BOJodwIreRqR0p7p3Vl1k35HepW4s"/>
+</div>
+<div>
+<h5 class="font-bold text-[#101818] dark:text-white">Sarah Thompson</h5>
+<p class="text-sm text-primary font-bold">Melbourne, Victoria</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
+<img alt="Care worker with client" class="w-full h-full object-cover" data-alt="Female healthcare worker holding elderly hand" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPxfCN6CUentw1hic_Q8QQCqrku48VWf6qSwJ1EQttLhozD3a-jukkFDfcAvKOpmos_rcJbginPSAJhSMotwiCQpJJw9qvy_3x9BBg39KC-SBrEKcP9X7CW9K0agcxXyL5gpT6d19_U5Q_HEM-mspcT8OoFqfWHYLkSE_AcYGgun2m6dcPVjlwp6HIIiOvq9Ux6whPlBMHaQudMBascu0wlq4i52PFQKLFXHpdr2ahBsOPiulpp1gBHMw5_pDP8374-S1LOmN6fS0"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden shadow-lg translate-y-8">
+<img alt="Community support" class="w-full h-full object-cover" data-alt="Diverse group of people smiling in a circle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx0oLvj2UfbKXzUN2tFuQF9hwYcViYBCtywm9dgc_-QAh9tpdjuCVG_YMfAQBDn1ooHMhf1uj2_1Feo7qozcZzpATll_jK4eYfo-HXQj3XTosDXP_idNcee2en2Wy91_RAGdzUIWmkd3tNG0uizfk8cneYLK-zwXZG8Te4jHBKiKQ8UNivdaQs-N_Uyc4bJG1fd8WmFU4JY2Pj1Ua7CzX75OIAvtvcBdGKzKcBR2PPDx-vCrOcAvpW1j6U84ZQAxmZwUyOUyzLCiw"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA / Footer Lead Section -->
+<section class="max-w-7xl mx-auto px-6 py-20 text-center space-y-8">
+<h2 class="text-4xl md:text-6xl font-extrabold text-[#101818] dark:text-white">Ready to receive the <br/>care you deserve?</h2>
+<p class="text-[#5e8b8d] dark:text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">
+                Connect with our team of qualified specialists today. We are here to listen, understand, and build a support plan that works for you.
+            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+<a href="tel:04 3003 3041">
+    <button class="w-full sm:w-auto bg-primary text-white px-10 py-4 rounded-xl text-lg font-bold hover:scale-105 transition-transform shadow-xl shadow-primary/20">
+                    Contact Us Now
+                </button></a>
+<div class="flex items-center gap-3 px-6 py-4 rounded-xl border border-gray-100 dark:border-gray-800">
+<span class="material-symbols-outlined text-primary">call</span>
+<span class="font-bold text-[#101818] dark:text-white">04 3003 3041</span>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white dark:bg-background-dark border-t border-[#f0f5f5] dark:border-gray-800 pt-20 pb-10">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+
+
+
+<img src="/logo.png" style="width: 60px;">
+</div>
+<p class="text-sm text-[#5e8b8d] leading-relaxed">
+                        Leading the way in compassionate, professional community care services across Australia. Registered NDIS provider.
+                    </p>
+<div class="flex gap-4">
+<!-- Facebook -->
+<a href="#" target="_blank" aria-label="Facebook">
+    <div class="size-8 rounded-full bg-gray-100 flex items-center justify-center text-[#5e8b8d] hover:bg-primary hover:text-white transition-colors cursor-pointer">
+        <i class="fa-brands fa-facebook-f text-sm"></i>
+    </div>
+</a>
+
+<!-- Instagram -->
+<a href="https://www.instagram.com/vrajcommunitycare?utm_source=ig_web_button_share_sheet&igsh=MWRpN3A3NDFlamk1dw%3D%3D"
+   target="_blank" aria-label="Instagram">
+    <div class="size-8 rounded-full bg-gray-100 flex items-center justify-center text-[#5e8b8d] hover:bg-primary hover:text-white transition-colors cursor-pointer">
+        <i class="fa-brands fa-instagram text-sm"></i>
+    </div>
+</a>
+
+</div>
+<img src="/ndis.png" style="width: 80px;">
+</div>
+<div>
+<h6 class="font-bold text-[#101818] dark:text-white mb-6">Services</h6>
+<ul class="space-y-4 text-sm text-[#5e8b8d]">
+<li><a class="hover:text-primary transition-colors" >NDIS Core Support</a></li>
+<li><a class="hover:text-primary transition-colors" >Aged Care Packages</a></li>
+<li><a class="hover:text-primary transition-colors" >Disability Support</a></li>
+<li><a class="hover:text-primary transition-colors" >Respite Care</a></li>
+</ul>
+</div>
+<div>
+<h6 class="font-bold text-[#101818] dark:text-white mb-6">Company</h6>
+<ul class="space-y-4 text-sm text-[#5e8b8d]">
+<li><a class="hover:text-primary transition-colors" href="about.html">About Vraj</a></li>
+<li><a class="hover:text-primary transition-colors" href="services.html">Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="contact.html">Contact</a></li>
+
+</ul>
+</div>
+<div>
+<h6 class="font-bold text-[#101818] dark:text-white mb-6">Contact Info</h6>
+<ul class="space-y-4 text-sm text-[#5e8b8d]">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                            18 Madison Place, Schofields, NSW 2762
+                        </li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">mail</span>
+                            support@vrajcommunitycare.com.au
+                        </li>
+<li class="flex items-center gap-3 font-bold text-[#101818] dark:text-white">
+<span class="material-symbols-outlined text-primary text-sm">call</span>
+                            (04) 3003 3041 <br>
+                            (04) 3377 4678
+                        </li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-[#f0f5f5] dark:border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-[#5e8b8d]">© 2025 Vraj Community Care. All rights reserved.</p>
+<div class="flex gap-8 text-xs text-[#5e8b8d]">
+
+</div>
+</div>
+</div>
+</footer>
+</body></html>
